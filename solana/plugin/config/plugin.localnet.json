@@ -1,5 +1,5 @@
 {
-    "libpath": "/home/andrei/work/src/public/solana/plugin/target/debug/libasync_plugin.so",
+    "libpath": "libasync_plugin.so",
     "processor": "",
     "accounts": [
         {

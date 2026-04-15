@@ -6,10 +6,10 @@ async function main() {
 
     const CONNECTION_URL = "http://localhost:8899";
 
-    const payerKeyPair = loadKeyPair("/home/andrei/work/src/public/solana/programs/keypairs/payer.json");
+    const payerKeyPair = loadKeyPair("payer.json");
     console.log("Payer: ", payerKeyPair.publicKey);
 
-    const programKeyPair = loadKeyPair("/home/andrei/work/src/public/solana/programs/keypairs/ping.json");
+    const programKeyPair = loadKeyPair("ping.json");
     console.log("Program: ", programKeyPair.publicKey);
 
     const connection = new web3.Connection(CONNECTION_URL);

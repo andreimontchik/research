@@ -6,13 +6,13 @@ async function main() {
 
     const CONNECTION_URL = "http://localhost:8899";
 
-    const payerKeyPair = loadKeyPair("/home/andrei/work/src/public/solana/programs/keypairs/payer.json");
+    const payerKeyPair = loadKeyPair("payer.json");
     console.log("The Payer: ", payerKeyPair.publicKey);
 
-    const pingKeyPair = loadKeyPair("/home/andrei/work/src/public/solana/programs/keypairs/ping.json");
+    const pingKeyPair = loadKeyPair("ping.json");
     console.log("The Ping Program: ", pingKeyPair.publicKey);
 
-    const pingCpiKeyPair = loadKeyPair("/home/andrei/work/src/public/solana/programs/keypairs/ping-cpi.json");
+    const pingCpiKeyPair = loadKeyPair("ping-cpi.json");
     console.log("The Ping Cpi Program: ", pingCpiKeyPair.publicKey);
 
     const connection = new web3.Connection(CONNECTION_URL);

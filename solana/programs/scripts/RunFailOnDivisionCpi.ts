@@ -23,13 +23,13 @@ async function main() {
 
     const CONNECTION_URL = "http://localhost:8899";
 
-    const payerKeyPair = loadKeyPair("/home/andrei/work/src/public/solana/programs/keypairs/payer.json");
+    const payerKeyPair = loadKeyPair("payer.json");
     console.log("Payer: ", payerKeyPair.publicKey);
 
-    const failOnDivisionKeyPair = loadKeyPair("/home/andrei/work/src/public/solana/programs/keypairs/fail-on-division.json");
+    const failOnDivisionKeyPair = loadKeyPair("fail-on-division.json");
     console.log("The FailOnDivision Program: ", failOnDivisionKeyPair.publicKey);
 
-    const failOnDivisionCpiKeyPair = loadKeyPair("/home/andrei/work/src/public/solana/programs/keypairs/fail-on-division-cpi.json");
+    const failOnDivisionCpiKeyPair = loadKeyPair("fail-on-division-cpi.json");
     console.log("The FailOnDivisionCpi Program: ", failOnDivisionCpiKeyPair.publicKey);
 
     let keys = [
