@@ -1,4 +1,4 @@
-## An open repository of Solana ecosystem applications, data and reference documentation materials.
+## Public repository of Solana sample applications, research data and reference documentation materials
 
 ### Apps
 
@@ -11,4 +11,4 @@
 
 ### Reference Docs
 
-- [Wiki](https://github.com/andreimontchik/public/wiki/)
+- [WIKI](https://github.com/andreimontchik/research/wiki/)
