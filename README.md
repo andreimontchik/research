@@ -11,4 +11,4 @@
 
 ### Reference Docs
 
-- [WIKI](https://github.com/andreimontchik/research/wiki/)
+- [Solana WIKI](https://github.com/andreimontchik/research/wiki/solana/)
