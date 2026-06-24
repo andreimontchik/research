@@ -4,7 +4,6 @@
 
 - [Asyncronus implementation of the Solana Geyser Plugin](solana/plugin)
 - [Collection of on-chain programs for test driving the basic on-chain functionalilty like logging, error handling and CPI](solana/programs)
-- [Arbitrage system capturing price discrepancies accross Solana liquidity providers.](https://github.com/andreimontchik/arb)
 
 ### Data
 
